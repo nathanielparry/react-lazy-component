@@ -1,6 +1,6 @@
 {
   "name": "react-lazy-component",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A template for authoring react / JSX components independently",
   "main": "src/Component.js",
   "jsnext:main": "src/Component.js",

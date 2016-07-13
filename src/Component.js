@@ -14,8 +14,8 @@ class Lazify extends Component {
 
     componentDidMount() {
         if(this.placeholder) {
-            inStalk.add( this.placeholder );
             this.placeholder.addEventListener('in-stalk.in', this.convert.bind(this));
+            inStalk.add( this.placeholder );
         }
     }
 
