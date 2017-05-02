@@ -1,6 +1,7 @@
-import { Component, PropTypes } from 'react';
+import { Component } from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import inStalk from 'in-stalk';
+import PropTypes from 'prop-types';
 
 
 class Lazify extends Component {
